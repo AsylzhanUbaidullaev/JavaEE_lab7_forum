@@ -13,7 +13,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="index.jsp">Home</a>
+                <a class="nav-link" href="index.jsp">Home </a>
             </li>
             <% if(request.getAttribute("user") == null) { %>
             <li class="nav-item">
