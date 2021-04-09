@@ -8,7 +8,8 @@ public class Comment {
     private User user;
     private Post post;
 
-    public Comment() { }
+    public Comment() {
+    }
     public int getId() {
         return id;
     }

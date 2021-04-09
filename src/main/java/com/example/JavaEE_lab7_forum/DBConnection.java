@@ -9,6 +9,5 @@ public class DBConnection {
         Class.forName("org.postgresql.Driver");
         Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/forum", "postgres", "aktos2020");
         return connection;
-
     }
 }

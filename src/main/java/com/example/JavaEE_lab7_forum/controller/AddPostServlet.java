@@ -29,7 +29,6 @@ public class AddPostServlet extends HttpServlet {
             st.setString(1, request.getParameter("title"));
             st.setString(2, request.getParameter("body"));
             st.executeUpdate();
-
             st.close();
             connection.close();
         } catch (SQLException throwables) {

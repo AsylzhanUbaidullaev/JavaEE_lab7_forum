@@ -13,8 +13,7 @@
 </head>
 <body>
 <jsp:include page="header.jsp" />
-<%! User user = null; %>
-<% user = (User) session.getAttribute("user"); %>
+
 <h1>Welcome to Forum</h1>
 <% if(request.getAttribute("user") != null) { %>
 <div class="my-5">
@@ -34,5 +33,6 @@
 </div>
 <%}%>
 </div>
+
 </body>
 </html>

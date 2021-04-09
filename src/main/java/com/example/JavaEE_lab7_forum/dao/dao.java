@@ -8,7 +8,6 @@ public class dao {
     public int registerUser(User user) throws ClassNotFoundException {
         String INSERT_USERS_SQL = "INSERT INTO account" + "  (id, name, email, password) VALUES " +
                 " (?, ?, ?, ?);";
-
         int result = 0;
 
         Class.forName("org.postgresql.Driver");

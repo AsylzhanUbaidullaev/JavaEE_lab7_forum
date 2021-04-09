@@ -11,7 +11,8 @@ public class Post {
     private User user;
     private List<Comment> comments;
 
-    public Post() { }
+    public Post() {
+    }
 
     public int getId() {
         return id;
